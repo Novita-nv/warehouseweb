@@ -1,16 +1,22 @@
 <template>
  <Navigation />
 
-    <div class="h-full flex space-x-10 md:space-x-64 justify-left items-center content-between p-20">
-        <img class="w-2/4" src="/images/product.png" alt="" />
+    <div>
+        <figure class="h-full flex space-x-10 md:space-x-32 justify-left items-center content-between p-20">
+            <img class="w-2/4" src="/images/product.png" alt="" />
+            <figcaption class="h-full flex p-20">
+                Let's see your product list!
+            </figcaption>
+        </figure>
 
-        <img class="w-2/4" src="/images/stock.png" alt="" />
+        <figure class="h-full flex space-x-10 md:space-x-32 justify-left items-center content-between p-20">
+            <img class="w-2/4" src="/images/stock.png" alt="" />
+            <figcaption class="h-full flex p-20">
+                Let's see your product list!
+            </figcaption>
+        </figure>
     </div>
 
-    <div class="h-full flex p-20">
-        Let's see your product list!
-        Let's see your product stock!
-    </div>
 
 </template>
 
