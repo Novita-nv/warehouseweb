@@ -1,18 +1,28 @@
 <template>
- <Navigation />
+<Navigation />
 
-    <div>
-        <figure class="h-full flex space-x-10 md:space-x-32 justify-left items-center content-between p-20">
-            <img class="w-2/4" src="/images/product.png" alt="" />
-            <figcaption class="h-full flex p-20">
-                Let's see your product list!
+    <div class="flex items-center justify-between h-screen">
+        <figure class="h-full flex flex-col justify-center items-center p-20">
+            <button type="button" v-on:click="$router.push('/product')" class="product-button font-bold p-8 underline underline-offset-4">
+                PRODUCT
+            </button>
+            <div>
+                <img class="gambar-product" src="/images/product.png" alt="" />
+            </div>
+            <figcaption class="p-5">
+                Lets see your product list!
             </figcaption>
         </figure>
 
-        <figure class="h-full flex space-x-10 md:space-x-32 justify-left items-center content-between p-20">
-            <img class="w-2/4" src="/images/stock.png" alt="" />
-            <figcaption class="h-full flex p-20">
-                Let's see your product list!
+        <figure class="h-full flex flex-col justify-center items-center p-20">
+            <button type="button" v-on:click="$router.push('/stock')" class="stock-btn font-bold p-8 underline underline-offset-4">
+                STOCK
+            </button>
+            <div>
+                <img class="gambar-stock" src="/images/stock.png" alt="" />
+            </div>
+            <figcaption class="p-5">
+                Lets see your stock list!
             </figcaption>
         </figure>
     </div>
