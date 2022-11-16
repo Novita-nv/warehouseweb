@@ -6,23 +6,18 @@
                     <h1 class="text-2xl text-purple mb-4">Updating Product Stock</h1>
                 
                     <div class="flex flex-col mb-2">
-                        <label for="product_id" class="mb-1 text-sm text-purple">Product ID</label>
-                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="email" />
-                    </div>
-                
-                    <div class="flex flex-col mb-2">
-                        <label for="updated-at" class="mb-1 text-sm text-purple">Updated At</label>
-                        <input type="timestampz" required class="p-2 text-gray-500 focus:outline-none" id="password" />
+                        <label for="product_id" class="mb-1 text-sm text-purple">Product Name</label>
+                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="product_name" />
                     </div>
 
                     <div class="flex flex-col mb-2">
                         <label for="stock_in" class="mb-1 text-sm text-purple">Stock In</label>
-                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="password" />
+                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="stock_in" />
                     </div>
 
                     <div class="flex flex-col mb-2">
                         <label for="stock_out" class="mb-1 text-sm text-purple">Stock Out</label>
-                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="password" />
+                        <input type="int" required class="p-2 text-gray-500 focus:outline-none" id="stock_out" />
                     </div>
 
                 <div class="flex flex-col-reserve items-center justify-end hover:justify-evenly">
